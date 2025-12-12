@@ -16,6 +16,15 @@
 
 ---
 
+## 📚 Sobre el Proyecto
+
+Este proyecto fue desarrollado como un ejercicio de aprendizaje con los siguientes objetivos:
+
+- 🔌 **Consumo de APIs REST** - Aprender a interactuar con APIs externas usando `fetch`
+- ⚛️ **React Hooks** - Práctica con `useState`, `useEffect` y manejo de estado
+- 🎨 **CSS Moderno** - Implementación de temas, responsividad y metodología BEM
+- 📦 **Componentización** - Estructurar una aplicación en componentes reutilizables
+
 ## ✨ Características
 
 - 🎨 **Tema Claro/Oscuro** - Toggle con iconos de Solrock/Lunatone
