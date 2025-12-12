@@ -1,7 +1,17 @@
 {
   "name": "pokedex-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Una Pokédex moderna y responsiva construida con React y la PokéAPI",
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "react",
+    "vite",
+    "pokeapi"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
