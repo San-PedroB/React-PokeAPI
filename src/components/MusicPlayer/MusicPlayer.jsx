@@ -1,9 +1,9 @@
 import AudioPlayer from 'react-h5-audio-player';
 import { useState } from 'react';
 import "./MusicPlayer.css";
-import PokemonCenterTheme from '../../assets/PokemonCenterTheme.mp3'
-import PokemonOpeningTheme from '../../assets/PokemonOpeningTheme.mp3'
-import PokemonGymTheme from '../../assets/PokemonGymTheme.mp3'
+import PokemonCenterTheme from '../../assets/music/PokemonCenterTheme.mp3'
+import PokemonOpeningTheme from '../../assets/music/PokemonOpeningTheme.mp3'
+import PokemonGymTheme from '../../assets/music/PokemonGymTheme.mp3'
 
 const tracks = [
     {
