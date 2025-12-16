@@ -1,4 +1,3 @@
-// src/hooks/usePokemonSpecies.js
 import { useEffect, useState } from "react";
 
 export function usePokemonSpecies(id) {
@@ -7,7 +6,6 @@ export function usePokemonSpecies(id) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Si no hay id, limpiamos el estado y no hacemos fetch
     if (!id) {
       setSpecies(null);
       setError(null);
@@ -43,7 +41,6 @@ export function usePokemonSpecies(id) {
 
     fetchSpecies();
 
-    // Limpieza si el componente se desmonta
     return () => {
       cancelled = true;
     };

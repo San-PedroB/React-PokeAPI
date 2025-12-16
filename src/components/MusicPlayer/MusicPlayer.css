@@ -1,13 +1,9 @@
-/* MusicPlayer.css */
-
-/* Contenedor general del mini player */
 .music-player {
     display: flex;
     align-items: center;
     gap: 0 !important;
 }
 
-/* Título del tema actual */
 .music-player__title {
     width: 100%;
     white-space: nowrap;
@@ -17,24 +13,20 @@
     padding: 0 !important;
 }
 
-/* Player compacto - quitar TODO el spacing */
 .music-player__audio--compact {
     width: var(--music-player-width);
     padding: 0 !important;
     margin: 0 !important;
     margin-left: 0px !important;
-    /* Jala hacia la izquierda */
     background: transparent !important;
     box-shadow: none !important;
 }
 
-/* Sobrescribir TODOS los elementos internos */
 .music-player__audio--compact * {
     margin: 0 !important;
     padding: 0 !important;
 }
 
-/* Sobrescribir estilos internos de la librería */
 .music-player__audio--compact .rhap_container {
     padding: 0 !important;
     margin: 0 !important;
@@ -56,7 +48,6 @@
     padding: 0 !important;
 }
 
-/* Ocultar elementos que no queremos */
 .music-player__audio--compact .rhap_progress-section,
 .music-player__audio--compact .rhap_volume-controls,
 .music-player__audio--compact .rhap_time {

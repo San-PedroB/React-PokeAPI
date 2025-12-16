@@ -46,6 +46,8 @@
     --music-player-button-scale: 0.9;
 }
 
+/* ===== TAMAÑOS RESPONSIVOS ===== */
+
 /* ===== TABLETS (≤768px) ===== */
 @media (max-width: 768px) {
     :root {
@@ -105,29 +107,5 @@
         --music-player-width: 120px;
         --music-player-gap: 0.1rem;
         --music-player-button-scale: 0.8;
-    }
-}
-
-/* ===== MÓVILES PEQUEÑOS (≤400px) ===== */
-@media (max-width: 400px) {
-    :root {
-        --spacing-md: 0.5rem;
-
-        --font-size-huge: 6rem;
-
-        --modal-padding-block: 0.75rem;
-        --modal-padding-inline: 0.5rem;
-        --modal-button-size: 30px;
-        --modal-button-font: 1.8rem;
-        --modal-button-offset: 0.1rem;
-
-        --detail-card-img-size: 8rem;
-        --detail-card-id-bg-size: 6rem;
-        --detail-card-padding-inline: 0.5rem;
-        --detail-card-name-size: 1.5rem;
-        --detail-card-description-padding: 0.75rem;
-
-        --music-player-width: 100px;
-        --music-player-button-scale: 0.7;
     }
 }

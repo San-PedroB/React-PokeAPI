@@ -12,7 +12,6 @@ export default function PokemonModal({ isOpen, pokemon, onClose, onNext, onPrev,
         error: speciesError,
     } = usePokemonSpecies(pokemonId);
 
-    // descripción limpia aquí:
     const description = extractDescription(species);
 
     if (!isOpen || !pokemon) return null;

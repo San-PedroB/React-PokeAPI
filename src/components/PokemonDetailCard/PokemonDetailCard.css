@@ -1,5 +1,4 @@
 .detail-card {
-    /* Removed background-color to avoid duplicate card look */
     color: var(--text-color);
     padding-block: var(--detail-card-padding-block);
     border-radius: 1rem;
@@ -7,7 +6,6 @@
     position: relative;
     cursor: default;
     isolation: isolate;
-    /* Removed transform: scale(1.18) to fix overflow issues */
     width: 100%;
 }
 

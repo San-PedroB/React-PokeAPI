@@ -1,4 +1,3 @@
-// src/hooks/usePokemonData.js
 import { useEffect, useState } from "react";
 import { fetchAllPokemon } from "../services/pokeapi";
 import { DEFAULT_POKEMON_LIMIT } from "../utils/constants";

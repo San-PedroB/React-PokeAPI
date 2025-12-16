@@ -36,7 +36,6 @@
     box-shadow: 0 0 1rem rgb(0, 0, 0, 0.25);
     transition: 0.2s;
     border: none;
-    /* Default background/color if not overridden by type class */
     background-color: #f0f0f0;
     color: #333;
 }

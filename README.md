@@ -73,7 +73,6 @@ Este proyecto fue desarrollado como un ejercicio de aprendizaje con los siguient
 pokedex-react/
 ├── src/
 │   ├── components/
-│   │   ├── ErrorMessage/      # Componente de error
 │   │   ├── LoadingSpinner/    # Spinner de carga
 │   │   ├── MusicPlayer/       # Reproductor de música
 │   │   ├── Navbar/            # Barra de navegación

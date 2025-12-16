@@ -3,14 +3,13 @@ import { usePokemonData } from "../../hooks/usePokemonData";
 import TypeFilter from "../../components/TypeFilter/TypeFilter";
 import PokemonList from "../../components/PokemonList/PokemonList";
 import Loading from "../../components/LoadingSpinner/LoadingSpinner";
-import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import PokemonModal from "../../components/PokemonModal/PokemonModal";
 import { DEFAULT_POKEMON_LIMIT } from "../../utils/constants";
 import { filterByType } from "../../utils/filters";
 
 
 export default function Home() {
-    const { pokemon, loading, error } = usePokemonData(DEFAULT_POKEMON_LIMIT);
+    const { pokemon, loading } = usePokemonData(DEFAULT_POKEMON_LIMIT);
     const [selectedType, setSelectedType] = useState(null);
     const [selectedPokemon, setSelectedPokemon] = useState(null);
 
@@ -44,7 +43,6 @@ export default function Home() {
     };
 
     if (loading) return <Loading />;
-    if (error) return <ErrorMessage />;
 
     return (
         <>
